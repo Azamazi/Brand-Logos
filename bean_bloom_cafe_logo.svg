@@ -1,0 +1,48 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cafe-font { font-family: 'Georgia', 'Trebuchet MS', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="250" cy="250" r="230" fill="#FDF3E3"/>
+
+  <!-- Scalloped/dotted outer ring for playful feel -->
+  <g fill="#E8785A">
+    <circle cx="250" cy="35" r="7"/>
+    <circle cx="325" cy="50" r="7"/>
+    <circle cx="390" cy="90" r="7"/>
+    <circle cx="435" cy="150" r="7"/>
+    <circle cx="460" cy="220" r="7"/>
+    <circle cx="460" cy="290" r="7"/>
+    <circle cx="435" cy="360" r="7"/>
+    <circle cx="390" cy="415" r="7"/>
+    <circle cx="325" cy="452" r="7"/>
+    <circle cx="250" cy="465" r="7"/>
+    <circle cx="175" cy="452" r="7"/>
+    <circle cx="110" cy="415" r="7"/>
+    <circle cx="65" cy="360" r="7"/>
+    <circle cx="40" cy="290" r="7"/>
+    <circle cx="40" cy="220" r="7"/>
+    <circle cx="65" cy="150" r="7"/>
+    <circle cx="110" cy="90" r="7"/>
+    <circle cx="175" cy="50" r="7"/>
+  </g>
+
+  <!-- Coffee cup body -->
+  <path d="M 175 210 L 190 320 Q 193 340 213 340 L 287 340 Q 307 340 310 320 L 325 210 Z"
+        fill="#7A4A2B"/>
+  <!-- Cup rim -->
+  <ellipse cx="250" cy="210" rx="75" ry="14" fill="#5C3820"/>
+  <!-- Cup handle -->
+  <path d="M 325 230 Q 365 235 362 270 Q 359 300 325 298" fill="none" stroke="#7A4A2B" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Steam swirls -->
+  <path d="M 225 175 Q 210 155 225 135 Q 240 115 225 95" fill="none" stroke="#E8785A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 275 175 Q 260 155 275 135 Q 290 115 275 95" fill="none" stroke="#E8785A" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Wordmark -->
+  <text x="250" y="400" text-anchor="middle" class="cafe-font" font-size="34" fill="#5C3820" font-weight="700">Bean &amp; Bloom</text>
+  <text x="250" y="422" text-anchor="middle" class="cafe-font" font-size="13" fill="#B4784F" letter-spacing="4">COFFEE • BAKERY</text>
+</svg>

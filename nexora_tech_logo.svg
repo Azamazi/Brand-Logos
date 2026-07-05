@@ -1,0 +1,27 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .tech-sans { font-family: 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F7CFF"/>
+      <stop offset="100%" stop-color="#7C4FFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0B0C10"/>
+
+  <!-- Abstract mark: three overlapping angular shapes forming a "N" / arrow motif -->
+  <g>
+    <path d="M 175 150 L 175 350 L 210 350 L 210 220 L 290 350 L 325 350 L 325 150 L 290 150 L 290 280 L 210 150 Z"
+          fill="url(#techGrad)"/>
+  </g>
+
+  <!-- Small accent dot -->
+  <circle cx="325" cy="165" r="9" fill="#4F7CFF"/>
+
+  <!-- Wordmark -->
+  <text x="250" y="410" text-anchor="middle" class="tech-sans" font-size="36" fill="#F5F6FA" letter-spacing="2" font-weight="700">NEXORA</text>
+  <text x="250" y="438" text-anchor="middle" class="tech-sans" font-size="13" fill="#8A8FA3" letter-spacing="5">CLOUD SOLUTIONS</text>
+</svg>
